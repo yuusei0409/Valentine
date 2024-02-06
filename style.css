@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tenor-gif-embed {
+    max-width: 300px; /* 最大幅を300pxに設定 */
+    max-height: 300px; /* 最大高さを300pxに設定 */
+    margin: auto; /* 中央揃え */
+  }
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.button-container {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 20px; /* 質問文とボタンの間隔 */
+    font-size: 20px; /* 質問文のフォントサイズ */
+  }
+
+  .ans {
+    margin-bottom: 20px; /* 質問文とボタンの間隔 */
+    font-size: 30px; /* 質問文のフォントサイズ */
+  }
+
+
+#yesButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px; /* ボタン間の隙間 */
+}
+
+#noButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px; /* ボタン間の隙間 */
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  border-radius: 0.5rem;
+}
+
+a.btn--green {
+  color: #FFF;
+  background-color: #00cc00;
+  border-bottom: 5px solid #009900;
+}
+
+a.btn--green:hover {
+  margin-top: 3px;
+  color: #FFF;
+  background: #00cc00;
+  border-bottom: 2px solid #009900;
+}
+
+a.btn--red {
+    color: #FFF;
+    background-color: #FF0000;
+    border-bottom: 5px solid #C62828;
+  }
+  
+  a.btn--red:hover {
+    margin-top: 3px;
+    color: #FFF;
+    background: #FF0000;
+    border-bottom: 2px solid #C62828;
+  }
